@@ -10,9 +10,10 @@ ndk调用
          没有，就下载NDK，或者去AndroidStudio Settings中配置，Appearance&Behavior->System Setings->Android SDK，选中SDK Tools标签
           页，选择CMake，LLDB，NDK进行安装
 ![](https://github.com/kongxianglei0403/NDKDemo/blob/master/picture/20161011083412889.png)
+![](https://github.com/kongxianglei0403/NDKDemo/blob/master/picture/20161011083854333.png)
 
         c.上面需要的东西都配置好后，新建的项目就会多出cpp文件夹，模块Gradle也多了些配置
-![](https://github.com/kongxianglei0403/NDKDemo/blob/master/picture/20161011083854333.png)
+![](https://github.com/kongxianglei0403/NDKDemo/blob/master/picture/QQ图片20171010134944.png)
 
         d.并且AndroidStudio已经帮我们创建了一个调用C的例子，直接运行项目，Activiity里的就可以成功调用到C的方法。
           我们在Activity里创建一个native方法，直接报红，然后Alt+Enter，选第一个
